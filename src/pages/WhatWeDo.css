@@ -1,0 +1,50 @@
+.what-we-do-container {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .title {
+    color: #27b268;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .body-text {
+    font-size: 18px;
+    margin: 10px 0 30px;
+    color: #555;
+  }
+  
+  .themes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .theme-item {
+    text-align: center;
+    width: 220px;
+  }
+  
+  .theme-image {
+    width: 100%;
+    height: auto;
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .theme-box {
+    background-color: #27b268;
+    padding: 10px;
+    margin-top: -4px;
+    height: 166px;
+  }
+  
+  .theme-text {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    margin-top: 60px;
+  }
+  

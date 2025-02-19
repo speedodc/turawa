@@ -1,0 +1,130 @@
+.blog-container {
+    flex: 100%;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .blog-title {
+    text-align: center;
+    color: #27B268;
+    margin-bottom: 80px;
+    font-size: 36px;
+  }
+  
+  .story-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .story-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 264.98px;
+    height: 380px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased blur and spread */
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+  
+  
+  .story-image {
+    width: 227.85px;
+    height: 227.85px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .story-title {
+    padding: 20px;
+    font-size: 15.19px;
+    margin: 10px 0;
+    border-top: 2px solid #27B268; /* Specify width and color */
+  }
+  
+  
+  .read-more-btn {
+    background-color: #27B268;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 123.21px;
+    height: 34.6px;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #27B268;
+  }
+  
+  .load-more-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    color: #27B268;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    width:123.21px;
+    height: 34.6px;
+  }
+  
+  .load-more-btn:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .stats-section {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items if they don't fit */
+    justify-content: center; /* Center items if wrapped */
+    align-items: center; /* Center items vertically */
+    background-color: #27B268;
+    color: white;
+    padding: 20px 0;
+    width: 100vw;
+    height: 330px;
+    margin: 0;
+    box-sizing: border-box;
+    gap: 300px; /* Space between items */
+  }
+  
+  
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between items */
+    align-items: center;
+    gap: 70px; /* Add spacing between stats */
+    border-bottom: 3px dotted white;
+    border-top: 3px dotted white; /* Dotted border around the entire container */
+    padding: 20px; /* Add padding inside the border */
+    border-radius: 8px; /* Optional: Rounded corners for the border */
+    width: 1175px;
+  }
+  
+  .stat-item {
+    text-align: center; /* Center the content inside each stat-item */
+    flex: 1; /* Ensure equal width for all items */
+  }
+  
+  .stat-item h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .stat-item p {
+    font-size: 36px;
+    margin: 0; /* Remove extra margin for proper centering */
+    color: #fff;
+
+  }
+  
