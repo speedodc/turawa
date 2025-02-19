@@ -4,6 +4,11 @@ import Blog from "./pages/blog";
 import WhatWeDo from "./pages/whatwedo";
 import "./App.css";
 
+// ✅ Correctly import images from `src/images/`
+import logo from "./images/logo.png"; // Make sure the file exists
+import disclaimer from "./images/disclaimer.png"; // Adjust based on actual location
+import homeImage from "./images/homei.png"; // Adjust based on actual location
+
 function App() {
   const [email, setEmail] = useState("");
   const [openDropdown, setOpenDropdown] = useState(null);
@@ -26,7 +31,7 @@ function App() {
       <header>
         <nav className="navbar">
           <div className="logo">
-            <img src="./src/images/logo.png" alt="Logo" />
+            <img src={logo} alt="Owu Waterfall" className="owu-image" />
           </div>
           <button className="mobile-menu-icon" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
             ☰
@@ -76,13 +81,13 @@ function App() {
             </div>
             <p className="disclaimer">
               <strong>
-                <img src="./src/images/disclaimer.png" alt="Disclaimer" /> Disclaimer:
+                <img src={disclaimer} alt="Disclaimer" /> Disclaimer:
               </strong>{" "}
               Tour itineraries, schedules, and services may change due to unforeseen circumstances.
             </p>
           </div>
           <div className="image">
-            <img src="./src/images/homei.png" alt="Tour Group" />
+            <img src={homeImage} alt="Tour Group" />
           </div>
         </section>
 
