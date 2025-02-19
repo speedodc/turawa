@@ -4,7 +4,6 @@ import Blog from "./pages/blog";
 import WhatWeDo from "./pages/whatwedo";
 import "./App.css";
 
-// ✅ Correctly import images from `src/images/`
 import logo from "./images/logo.png"; // Make sure the file exists
 import disclaimer from "./images/disclaimer.png"; // Adjust based on actual location
 import homeImage from "./images/homei.png"; // Adjust based on actual location

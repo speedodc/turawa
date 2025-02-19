@@ -1,6 +1,12 @@
 import React from "react";
 import "./WhatWeDo.css";
 
+// Import images properly
+import tourismImage from "../images/tourism.png";
+import eventImage from "../images/event.png";
+import travelImage from "../images/travel.png";
+import advocacyImage from "../images/advocacy.png";
+
 const WhatWeDo = () => {
   return (
     <div className="what-we-do-container">
@@ -10,26 +16,26 @@ const WhatWeDo = () => {
       </p>
       <div className="themes-container">
         <div className="theme-item">
-        <img src='../src/images/tourism.png' alt="Wildlife" className="theme-image" />
-        <div className="theme-box">
+          <img src={tourismImage} alt="Tourism" className="theme-image" />
+          <div className="theme-box">
             <p className="theme-text">Tourism</p>
           </div>
         </div>
         <div className="theme-item">
-          <img src='../src/images/event.png' alt="Wildlife" className="theme-image" />
+          <img src={eventImage} alt="Event" className="theme-image" />
           <div className="theme-box">
             <p className="theme-text">Wildlife</p>
           </div>
         </div>
         <div className="theme-item">
-        <img src='../src/images/travel.png' alt="Wildlife" className="theme-image" />
-        <div className="theme-box">
+          <img src={travelImage} alt="Travel" className="theme-image" />
+          <div className="theme-box">
             <p className="theme-text">Adventure</p>
           </div>
         </div>
         <div className="theme-item">
-        <img src='../src/images/advocacy.png' alt="Wildlife" className="theme-image" />
-        <div className="theme-box">
+          <img src={advocacyImage} alt="Advocacy" className="theme-image" />
+          <div className="theme-box">
             <p className="theme-text">Culture</p>
           </div>
         </div>

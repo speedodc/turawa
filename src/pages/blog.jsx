@@ -1,28 +1,33 @@
 import React from 'react';
-import './Blog.css'; // Add your CSS styles here
+import './Blog.css'; // Import your CSS styles
 import { Link } from "react-router-dom";
+
+// Import images properly
+import sokotoIlorinImage from '../images/sokoto-ilorin.png';
+import anniversaryImage from '../images/aniversary.png';
+import owuImage from '../images/owu.png';
 
 const Blog = () => {
   const stories = [
     {
       id: 1,
       title: 'Sokoto Ilorin City Connect',
-      image: '../src/images/sokoto-ilorin.png', // Replace with actual image paths
+      image: sokotoIlorinImage, 
     },
     {
       id: 2,
       title: 'Our 4th anniversary',
-      image: '../src/images/aniversary.png',
+      image: anniversaryImage,
     },
     {
       id: 3,
       title: 'The caliphate hangout',
-      image: '../src/images/aniversary.png',
+      image: anniversaryImage,
     },
     {
       id: 4,
       title: 'Visit to Owu waterfall',
-      image: '../src/images/owu.png',
+      image: owuImage,
     },
   ];
 
